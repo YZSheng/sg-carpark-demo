@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import SpinningCar from "./SpinningCar";
+import Counter from "./Counter";
+import CarparkData from "./CarparkData";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <CarparkData />
+          <SpinningCar className="App-logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
